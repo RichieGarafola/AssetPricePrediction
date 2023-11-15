@@ -1,6 +1,12 @@
 # Asset Price Prediction App
 
+---
+https://assetforecaster.streamlit.app/
+---
+
 This Streamlit app is designed to fetch, analyze, and visualize asset price data using the Yahoo Finance API and the Prophet time series forecasting model. Users can select a financial instrument, such as Forex pairs, cryptocurrencies, commodities, or indices, and input a ticker symbol to analyze historical price data and make future price predictions.
+
+---
 
 ## Table of Contents
 
@@ -9,6 +15,8 @@ This Streamlit app is designed to fetch, analyze, and visualize asset price data
 - [Usage](#usage)
 - [App Overview](#app-overview)
 - [Contributing](#contributing)
+
+---
 
 ## Prerequisites
 
@@ -29,6 +37,8 @@ You can install them using `pip` or `conda`. For example:
 
         pip install pandas hvplot holoviews prophet yfinance streamlit scikit-learn statsmodels matplotlib
 
+---
+
 ## Installation
 
 Clone this repository:
@@ -40,6 +50,7 @@ Run the Streamlit app:
 
         streamlit run forecaster.py
         
+---
 
 ## Usage
 - Upon running the app, you will be presented with a sidebar and main content area.
@@ -52,6 +63,8 @@ Run the Streamlit app:
 
 - The app will fetch historical price data from Yahoo Finance, perform time series forecasting using the Prophet model, and display various visualizations and analysis results.
 
+---
+
 ## App Overview
 
 The app provides the following features and visualizations:
@@ -63,6 +76,8 @@ The app provides the following features and visualizations:
 - Moving averages (simple moving averages of 50 and 200 periods).
 - Seasonal decomposition plot (observed, trend, seasonal, residual).
 
+---
+
 ## Contributing
 
 Contributions to this project are welcome. You can contribute by:
@@ -72,6 +87,8 @@ Contributions to this project are welcome. You can contribute by:
 - Improving the app's user interface.
 - Adding new features or visualizations.
 - Feel free to fork the repository and submit pull requests.
+
+---
 
 ## Glossary
 
